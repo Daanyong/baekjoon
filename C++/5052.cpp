@@ -37,7 +37,6 @@ int main()
 			string front = N[i - 1];
 			string back = N[i];
 			
-			
 			string tmp = "";
 			
 			for(j = 0; j < front.size(); j++)
@@ -46,8 +45,8 @@ int main()
 			}
 			if (front == tmp)
 			{
-	    	    check = false;
-	    	    break;
+	    	  	 	check = false;
+	    	    		break;
 			}
 		}
 		if(check)
